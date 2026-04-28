@@ -1,0 +1,23 @@
+name: GLM-Config
+version: 1.0.0
+schema: v1
+
+models:
+  - name: GLM-4-Flash
+    provider: openai
+    apiBase: https://open.bigmodel.cn/api/paas/v4
+    apiKey: "2e5030bed5804295a5982a3c56397cdc.WhBKQJRSY0ozDOxD"
+    model: glm-4-flash
+    roles:
+      - chat
+      - edit
+      - autocomplete
+  - name: GLM-4
+    provider: openai
+    apiBase: https://open.bigmodel.cn/api/paas/v4
+    apiKey: "2e5030bed5804295a5982a3c56397cdc.WhBKQJRSY0ozDOxD"
+    model: glm-4
+    roles:
+      - chat
+      - edit
+      - autocomplete
